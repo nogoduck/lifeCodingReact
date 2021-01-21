@@ -31,7 +31,12 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <A a={this.state.subject.a} b={this.state.subject.b}/>
+        {/* <A a={this.state.subject.a} b={this.state.subject.b}/> */}
+        <header>
+          <h1><a href="/" onClick={function}>{this.state.subject.a}</a></h1>
+          {this.state.subject.b}
+      </header>
+
         <B dt={this.state.contents}/>
         <C a={_title} b={_desc}/>
       </div>
