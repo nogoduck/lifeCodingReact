@@ -4,7 +4,7 @@ class A extends Component {
   render(){
     return (
       <header>
-        <h1>{this.props.a}</h1>
+        <h1><a href="/">{this.props.a}</a></h1>
         {this.props.b}
       </header>
     );
