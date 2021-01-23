@@ -33,7 +33,9 @@ class App extends Component {
       <div className="App">
         {/* <A a={this.state.subject.a} b={this.state.subject.b}/> */}
         <header>
-          <h1><a href="/" onClick={function}>{this.state.subject.a}</a></h1>
+          <h1><a href="/" onClick={function(){
+            alert('hi');
+          }}>{this.state.subject.a}</a></h1>
           {this.state.subject.b}
       </header>
 
